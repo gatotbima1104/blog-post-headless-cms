@@ -4,7 +4,6 @@ import React, { useEffect, useState } from "react";
 
 import CardFeatured from "./atom/Card";
 import { contentfulClient } from "@/utils/contentfulClient";
-import { IContentAsset } from "@/utils/types/contentful.types";
 import ButtonMore from "./atom/ButtonMore";
 
 export default function PopularPost() {

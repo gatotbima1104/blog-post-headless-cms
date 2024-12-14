@@ -7,7 +7,6 @@ import News3 from "../../public/news3.jpeg"
 import News4 from "../../public/news4.jpeg"
 import News5 from "../../public/news5.jpeg"
 
-
 interface ICardList {
     title: string
 }

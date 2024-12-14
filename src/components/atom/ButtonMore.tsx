@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import { title } from 'process'
 import React from 'react'
 
 export default function ButtonMore({text, link}: {text: string, link: string}) {
