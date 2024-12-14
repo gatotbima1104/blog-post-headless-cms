@@ -166,8 +166,8 @@ export default function BlogPost() {
               />
             ))
           ) : (
-            <div className="text-center text-gray-500 ">
-              No Article found in this range
+            <div className="col-span-full text-center text-gray-500">
+              No data found
             </div>
           )
             }

@@ -71,10 +71,10 @@ export default function Navbar() {
         </button>
 
         <ul className={`${isOpen? 'block': 'hidden'} absolute w-full min-h-screen bg-white text-black left-0 top-24 grid grid-rows-6 items-center justify-start pl-20 gap-10`}>
-            <li className='hover:text-[#59E3C6] text-3xl'><a href="/">Home</a></li>
-            <li className='hover:text-[#59E3C6] text-3xl'><a href="/categories">Categories</a></li>
-            <li className='hover:text-[#59E3C6] text-3xl'><a href="/blog">Blog</a></li>
-            <li className='hover:text-[#59E3C6] text-3xl'><a href="/about">About</a></li>
+            <li className='hover:text-[#59E3C6] text-3xl'><Link href="/">Home</Link></li>
+            <li className='hover:text-[#59E3C6] text-3xl'><Link href="/categories">Categories</Link></li>
+            <li className='hover:text-[#59E3C6] text-3xl'><Link href="/blog">Blog</Link></li>
+            <li className='hover:text-[#59E3C6] text-3xl'><Link href="/about">About</Link></li>
         </ul>
     </nav>
     
